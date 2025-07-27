@@ -12,16 +12,16 @@
 
         <nav>
             <ul>
-                <li><a href="Home/home.html" class="header-button">Home</a></li>
-                <li><a href="Contact/contact.html" class="header-button">Contact</a></li>
-                <li><a href="About/about.html" class="header-button">About</a></li>
-                <li><a href="Feedback/feedback.html" class="header-button">Feedback</a></li>
+                <li><a href="../Home/home.html" class="header-button">Home</a></li>
+                <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
+                <li><a href="../About/about.html" class="header-button">About</a></li>
+                <li><a href="../Feedback/feedback.html" class="header-button">Feedback</a></li>
                 <li class="dropdown-nav">
                     <a href="#" class="header-button">More</a>
                     <ul class="dropdown-content">
-                        <li><a href="Privacy-policy/privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a></li>
-                        <li><a href="Instructions/instructions.html">Instructions</a></li>
+                        <li><a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a></li>
+                        <li><a href="../Instructions/instructions.html">Instructions</a></li>
                     </ul>
                 </li>
             </ul>
@@ -29,22 +29,24 @@
     </header>
 
     <main id="main">
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="e4300a6e-724b-47a5-a2c7-ccfe5468e70c">
+            
             <h1>Contact</h1>
             <label for="fn">First Name</label>
-            <input id="fn" name="First-name" type="text" placeholder="Enter your first name">
+            <input id="fn" name="First-name" type="text" placeholder="Enter your first name" required>
 
             <label for="ln">Last name</label>
             <input id="ln" name="Last-name" type="text" placeholder="Enter your last name">
 
             <label for="email">Email</label>
-            <input id="email" name="Email" type="email" placeholder="Enter your email">
+            <input id="email" name="Email" type="email" placeholder="Enter your email" required>
 
             <label for="subject">Subject</label>
-            <input id="subject" name="Subject" type="text" placeholder="Enter the subject">
+            <input id="subject" name="Subject" type="text" placeholder="Enter the subject" required>
 
             <label for="message">Message</label>
-            <textarea name="Message" id="message" cols="30" rows="6"  placeholder=" Write your message here"></textarea>
+            <textarea name="Message" id="message" cols="30" rows="6"  placeholder=" Write your message here" required></textarea>
 
             <button id="submit-button" type="submit">Submit</button>
         </form>
@@ -52,9 +54,9 @@
 
 
     <footer>
-        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a>
         <br><br>
-        <a href="terms-and-conditions.html">Terms and Conditions</a>
+        <a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a>
         <br>
         <p>Copyright © Ahmed Marium 2025. All rights reserved.</p>
     </footer>
