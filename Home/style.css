@@ -6,7 +6,7 @@
     font-size: larger;
     font-family: Arial, sans-serif;
     border-radius: 1rem;
-    box-shadow: 7px 4px 40px rgb(2, 96, 139);
+    box-shadow: 0px 0px 40px rgb(2, 96, 139);
 }
 
 #main-work{
@@ -32,16 +32,19 @@
 }
 #start-playing-button:hover{
     background-color: rgb(199, 140, 13);
+    box-shadow: 0px 0px 0px 5px rgb(230, 200, 50);
 }
 #contact-us-button{
     background-color: rgb(101, 156, 238);
 }
 #contact-us-button:hover{
     background-color: rgb(56, 101, 168);
+    box-shadow: 0px 0px 0px 5px rgb(80, 130, 190);
 }
 #feedback-button{
     background-color: rgb(194, 214, 8);
 }
 #feedback-button:hover{
     background-color: rgb(155, 172, 6);
+    box-shadow: 0px 0px 0px 5px rgb(185, 190, 35);
 }
