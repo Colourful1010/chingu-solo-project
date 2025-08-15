@@ -1,0 +1,20 @@
+center a{
+    width:50%;
+    height: 4rem;
+    margin: 2vw;
+    display: block;
+    background-color: rgb(228, 38, 85);
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    border-radius: 1vw;
+    box-shadow: 1px 1px 1px 5px rgb(204, 231, 248);
+    text-decoration: none;
+    padding-top: 2rem;
+}
+
+center a:hover{
+    box-shadow: 5px 2px 15px 20px rgb(204, 231, 248);
+    background-color: rgb(46, 46, 46);
+    transition: 0.3s ease;
+}
