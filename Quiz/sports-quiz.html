@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sports-quiz.css">
+    <link rel="stylesheet" href="../main.css">
+    <title>Quiz | Sports</title>
+</head>
+<body>
+    <header>
+        <span>Qustezle</span>
+
+        <nav>
+            <ul>
+                <li><a href="../Home/home.html" class="header-button">Home</a></li>
+                <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
+                <li><a href="../About/about.html" class="header-button">About</a></li>
+                <li><a href="../Feedback/feedback.html" class="header-button">Feedback</a></li>
+                <li class="dropdown-nav">
+                    <a href="#" class="header-button">More</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a></li>
+                    </ul>     
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="quiz">
+            <h1>Sports Quiz</h1>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            
+            <p>1. What is the only sport to be played on the moon?</p>
+                <label class="quiz-option"><input type="radio" name="q1" value="a"> Golf</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="b"> Badminton</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="c"> Tennis</label>
+
+            <p>2. How often are the Summer Olympic Games held?</p>
+                <label class="quiz-option"><input type="radio" name="q2" value="a"> Every 2 years</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="b"> Every 4 years</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="c"> Every year</label>
+
+            <p>3. Which sport is associated with the term 'alley-oop'?</p>
+                <label class="quiz-option"><input type="radio" name="q3" value="a"> Basketball</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="b"> Football</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="c"> Hockey</label>
+
+            <p>4. In what sport would you find a 'glove save'?</p>
+                <label class="quiz-option"><input type="radio" name="q4" value="a"> Baseball</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="b"> Hockey</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="c"> Cricket</label>
+
+            <p>5. How many minutes are in a standard soccer match?</p>
+                <label class="quiz-option"><input type="radio" name="q5" value="a"> 90</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="b"> 45</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="c"> 60</label>
+
+            <p>6. What is the official distance of a marathon?</p>
+                <label class="quiz-option"><input type="radio" name="q6" value="a"> 42 km</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="b"> 26 miles</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="c"> 42.195 km</label>
+
+            <p>7. How many players are on a standard soccer team on the field at one time?</p>
+                <label class="quiz-option"><input type="radio" name="q7" value="a"> 10</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="b"> 11</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="c"> 12</label>
+
+            <p>8. What is the only country to have played in every single FIFA World Cup tournament?</p>
+                <label class="quiz-option"><input type="radio" name="q8" value="a"> Brazil</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="b"> Spain</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="c"> Italy</label>
+            
+            <p>9. How many players are there in a cricket team (on the field) during a standard match?</p>
+                <label class="quiz-option"><input type="radio" name="q9" value="a"> 23</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="b"> 10</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="c"> 11</label>
+
+            <p>10. Which country has won the most Olympic gold medals overall?</p>
+                <label class="quiz-option"><input type="radio" name="q10" value="a"> Russia</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="b"> United States</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="c"> India</label>
+
+            <br><br>
+            <button type="submit" id="submit" onclick="checkAnswers()">Submit</button>
+        </section>
+
+        <div id="result"></div>
+    </main>
+
+
+    <footer>
+        <a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a>
+        <br><br>
+        <a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a>
+        <br>
+        <p>Copyright © Ahmed Marium 2025. All rights reserved.</p>
+    </footer>
+
+    <script src="sports-quiz.js"></script>
+</body>
+</html>

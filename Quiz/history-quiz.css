@@ -1,0 +1,93 @@
+section{
+
+    background-color: rgb(245, 240, 240);
+    /*width: 92vw;*/
+    border-radius: 6px;
+    box-shadow: 2px 3px 4px 5px #b9eeee;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    padding: 4vh;
+}
+
+section h1{ 
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label{
+    font-weight: bolder;
+    font-size: x-large;
+}
+#name{
+    width: 18rem;
+    height: fit-content;
+    font-size: large;
+}
+section p{
+    font-weight: bolder;
+    margin-top: 4vw;
+    font-size: x-large;
+}
+
+section{
+    font-size: larger;
+}
+
+.quiz-option {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #cfdcfc;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s ease;
+    margin-top: 1vh;
+}
+
+#submit{
+    width: 10rem;
+    height: 8vh;
+    border: none;
+    border-radius: 1vw;
+    background-color: rgb(255, 39, 39);
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+#submit:hover{
+    background-color: darkred;
+    color: rgb(169, 173, 175);
+    box-shadow: 5px 5px 7.6px 8px #b9eeee;
+    transition: 0.2s ease;
+
+}
+
+
+/*result page design*/
+center{
+    margin:auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    background-color: #eefdfd;
+    box-shadow: 0px 0px 10px 10px #00e8ff;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 65%;
+}
+
+@media (max-width: 900px) {
+    center{
+        width: 85%;
+    }
+    center h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 1200px) {
+    center{
+        width: 75%;
+    }
+    center h1{
+        font-size: 1.6rem;
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="history-quiz.css">
+    <title>Quiz | History</title>
+</head>
+<body>
+    <header>
+        <span>Qustezle</span>
+
+        <nav>
+            <ul>
+                <li><a href="../Home/home.html" class="header-button">Home</a></li>
+                <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
+                <li><a href="../About/about.html" class="header-button">About</a></li>
+                <li><a href="../Feedback/feedback.html" class="header-button">Feedback</a></li>
+                <li class="dropdown-nav">
+                    <a href="#" class="header-button">More</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a></li>
+                    </ul>     
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="quiz">
+            <h1>History Quiz</h1>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            
+            <p>1. What global event took place between 1914 and 1918?</p>
+                <label class="quiz-option"><input type="radio" name="q1" value="a"> The Cold War</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="b"> World War I</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="c"> World War II</label>
+
+            <p>2. When did the World War 2 take place?</p>
+                <label class="quiz-option"><input type="radio" name="q2" value="a"> 1983–1996</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="b"> 1812–1815</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="c"> 1939–1945</label>
+
+            <p>3. What year did the Mongol empire begin?</p>
+                <label class="quiz-option"><input type="radio" name="q3" value="a"> 1266</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="b"> 1206</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="c"> 1106</label>
+
+            <p>4. What year was the Soviet Union officially established?</p>
+                <label class="quiz-option"><input type="radio" name="q4" value="a"> 1992</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="b"> 1922</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="c"> 1932</label>
+
+            <p>5. The Korean War began in:</p>
+                <label class="quiz-option"><input type="radio" name="q5" value="a"> 1950</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="b"> 1905</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="c"> 1960</label>
+
+            <p>6. The Korean War was fought between:</p>
+                <label class="quiz-option"><input type="radio" name="q6" value="a"> North Korea and China</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="b"> North Korea and Japan</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="c"> North Korea (with China & USSR) and South Korea (with UN/US support)</label>
+
+            <p>7. The Battle of Plassey in 1757 marked the beginning of British colonial control in Bengal. Who led the British forces?</p>
+                <label class="quiz-option"><input type="radio" name="q7" value="a"> Lord Mountbatten</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="b"> Robert Clive</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="c"> Warren Hastings</label>
+
+            <p>8. What global event brought the United States into World War 2?</p>
+                <label class="quiz-option"><input type="radio" name="q8" value="a"> Attack on Pearl Harbor</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="b"> Invasion of Poland</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="c"> Fall of Japan</label>
+            
+            <p>9. What did the Ottoman empire name the Constantinople after capturing it?</p>
+                <label class="quiz-option"><input type="radio" name="q9" value="a"> Istanbul</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="b"> Istambul</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="c"> Baghdad</label>
+
+            <p>10.The Industrial Revolution began in which part of the British Empire?</p>
+                <label class="quiz-option"><input type="radio" name="q10" value="a"> Ireland</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="b"> England</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="c"> India</label>
+
+            <br><br>
+            <button type="submit" id="submit" onclick="checkAnswers()">Submit</button>
+        </section>
+
+        <div id="result"></div>
+    </main>
+
+
+    <footer>
+        <a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a>
+        <br><br>
+        <a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a>
+        <br>
+        <p>Copyright © Ahmed Marium 2025. All rights reserved.</p>
+    </footer>
+
+    <script src="history-quiz.js"></script>
+</body>
+</html>

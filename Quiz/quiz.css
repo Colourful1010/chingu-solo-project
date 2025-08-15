@@ -1,0 +1,29 @@
+main{
+    background-color: rgb(247, 244, 248);
+}
+
+center h1{
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+section a{
+    width: 40%;
+    height: 13vh;
+    margin: 2vw;
+    display: block;
+    background-color: darkslategray;
+    color: aliceblue;
+    font-size: larger;
+    border: none;
+    border-radius: 1vw;
+    box-shadow: 1px 1px 1px 5px rgb(204, 231, 248);
+    text-decoration: none;
+    padding-top: 1rem;
+}
+
+section a:hover{
+    box-shadow: 5px 2px 15px 20px rgb(204, 231, 248);
+    background-color: rgb(46, 46, 46);
+    transition: 0.3s ease;
+}

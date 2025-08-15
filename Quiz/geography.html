@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="geography.css">
+    <title>Quiz | Geography</title>
+</head>
+<body>
+    <header>
+        <span>Qustezle</span>
+
+        <nav>
+            <ul>
+                <li><a href="../Home/home.html" class="header-button">Home</a></li>
+                <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
+                <li><a href="../About/about.html" class="header-button">About</a></li>
+                <li><a href="../Feedback/feedback.html" class="header-button">Feedback</a></li>
+                <li class="dropdown-nav">
+                    <a href="#" class="header-button">More</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a></li>
+                        <!--<li><a href="../Instructions/instructions.html">Instructions</a></li>-->
+                    </ul>     
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="quiz">
+            <div id="head">
+                <h1>Geography Quiz</h1>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name here" required>
+            </div>
+            
+            <p>1. Which country is both an island and a continent?</p>
+                <label class="quiz-option"><input type="radio" name="q1" value="a"> Greenland</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="b"> Australia</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="c"> Canada</label>
+
+            <p>2. Which country is the largest by land area?</p>
+                <label class="quiz-option"><input type="radio" name="q2" value="a"> Russia</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="b"> Canada</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="c"> China</label>
+
+            <p>3. Which is the most populous country in the world?</p>
+                <label class="quiz-option"><input type="radio" name="q3" value="a"> China</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="b"> United States</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="c"> India</label>
+
+            <p>4. Which continent has the most countries?</p>
+                <label class="quiz-option"><input type="radio" name="q4" value="a"> Africa</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="b"> Europe</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="c"> Asia</label>
+
+            <p>5. What is the smallest country in the world by area?</p>
+                <label class="quiz-option"><input type="radio" name="q5" value="a"> Nauru</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="b"> Jamaica</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="c"> Vatican City</label>
+
+            <p>6. What ocean lies between Africa and Australia?</p>
+                <label class="quiz-option"><input type="radio" name="q6" value="a"> Arctic Ocean</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="b"> Pacific Ocean</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="c"> Indian Ocean</label>
+
+            <p>7. What is the capital city of Australia?</p>
+                <label class="quiz-option"><input type="radio" name="q7" value="a"> Canberra</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="b"> Ottawa</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="c"> Seoul</label>
+
+            <p>8. What is the deepest point in the world's oceans?</p>
+                <label class="quiz-option"><input type="radio" name="q8" value="a"> Puerto Rico Trench</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="b"> Mariana Trench</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="c"> Tonga Trench</label>
+            
+            <p>9. Which sea is located between Europe and Africa?</p>
+                <label class="quiz-option"><input type="radio" name="q9" value="a"> Black Sea</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="b"> Dead Sea</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="c"> The Mediterranean Sea</label>
+
+            <p>10. Which country is completely landlocked?</p>
+                <label class="quiz-option"><input type="radio" name="q10" value="a"> Bolivia</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="b"> Portugal</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="c"> Vietnam</label>
+
+            <br><br>
+            <button type="submit" id="submit" onclick="checkAnswers()">Validate Answers</button>
+        </section>
+
+        <div id="result"></div>
+    </main>
+
+
+    <footer>
+        <a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a>
+        <br><br>
+        <a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a>
+        <br>
+        <p>Copyright © Ahmed Marium 2025. All rights reserved.</p>
+    </footer>
+
+    <script src="geography.js"></script>
+</body>
+</html>

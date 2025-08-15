@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animal-quiz.css">
+    <link rel="stylesheet" href="../main.css">
+    <title>Quiz | Animal</title>
+</head>
+<body>
+    <header>
+        <span>Qustezle</span>
+
+        <nav>
+            <ul>
+                <li><a href="../Home/home.html" class="header-button">Home</a></li>
+                <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
+                <li><a href="../About/about.html" class="header-button">About</a></li>
+                <li><a href="../Feedback/feedback.html" class="header-button">Feedback</a></li>
+                <li class="dropdown-nav">
+                    <a href="#" class="header-button">More</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a></li>
+                    </ul>     
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="quiz">
+            <h1>Animal Quiz</h1>
+
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            
+            <p>1. What is a group of crows called?</p>
+                <label class="quiz-option"><input type="radio" name="q1" value="a"> A flock</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="b"> A murder</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="c"> A gaggle</label>
+
+            <p>2. Which of these animals is a marsupial?</p>
+                <label class="quiz-option"><input type="radio" name="q2" value="a"> Kangaroo</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="b"> Wolf</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="c"> Panda</label>
+
+            <p>3. How many legs does a spider have?</p>
+                <label class="quiz-option"><input type="radio" name="q3" value="a"> 6</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="b"> 8</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="c"> 12</label>
+
+            <p>4. What is a baby goat called?</p>
+                <label class="quiz-option"><input type="radio" name="q4" value="a"> Calf</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="b"> Fawn</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="c"> Kid</label>
+
+            <p>5. Which of these is the fastest land animal?</p>
+                <label class="quiz-option"><input type="radio" name="q5" value="a"> Horse</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="b"> Cheetah</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="c"> Gazelle</label>
+
+            <p>6. What type of animal is a 'Killer Whale'?</p>
+                <label class="quiz-option"><input type="radio" name="q6" value="a"> Shark</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="b"> Whale</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="c"> Dolphin</label>
+
+            <p>7. Which bird lays the largest eggs?</p>
+                <label class="quiz-option"><input type="radio" name="q7" value="a"> Ostrich</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="b"> Eagle</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="c"> Parrot</label>
+
+            <p>8. Lion belongs from which family?</p>
+                <label class="quiz-option"><input type="radio" name="q8" value="a"> Felidae</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="b"> Canidae</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="c"> Hyaenidae</label>
+            
+            <p>9. What is a group of lions called?</p>
+                <label class="quiz-option"><input type="radio" name="q9" value="a"> Flock</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="b"> Pride</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="c"> Pack</label>
+
+            <p>10. The bird with the best eyesight is the _____.</p>
+                <label class="quiz-option"><input type="radio" name="q10" value="a"> Falcon</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="b"> Owl</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="c"> Eagle</label>
+
+            <br><br>
+            <button type="submit" id="submit" onclick="checkAnswers()">Submit</button>
+        </section>
+
+        <div id="result"></div>
+    </main>
+
+
+    <footer>
+        <a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a>
+        <br><br>
+        <a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a>
+        <br>
+        <p>Copyright © Ahmed Marium 2025. All rights reserved.</p>
+    </footer>
+
+    <script src="animal-quiz.js"></script>
+</body>
+</html>

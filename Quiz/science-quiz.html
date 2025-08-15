@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="science-quiz.css">
+    <title>Quiz | Science</title>
+</head>
+<body>
+    <header>
+        <span>Qustezle</span>
+
+        <nav>
+            <ul>
+                <li><a href="../Home/home.html" class="header-button">Home</a></li>
+                <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
+                <li><a href="../About/about.html" class="header-button">About</a></li>
+                <li><a href="../Feedback/feedback.html" class="header-button">Feedback</a></li>
+                <li class="dropdown-nav">
+                    <a href="#" class="header-button">More</a>
+                    <ul class="dropdown-content">
+                        <li><a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a></li>
+                    </ul>     
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="quiz">
+            
+            <h1>Science Quiz</h1>
+
+            <label for="name">User Designation:</label>
+            <input type="text" name="name" id="name" placeholder="Enter your designation" required>
+            
+            <p>1. What is the full form of CFC?</p>
+                <label class="quiz-option"><input type="radio" name="q1" value="a"> Chlorofluorocarbon</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="b"> Carbon Fluoride Compound</label>
+                <label class="quiz-option"><input type="radio" name="q1" value="c"> Carbon Fluoride Carbon</label>
+
+            <p>2. What is the biological process of transformation from a larva to an adult butterfly?</p>
+                <label class="quiz-option"><input type="radio" name="q2" value="a"> Metamorphosis</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="b"> Evolution</label>
+                <label class="quiz-option"><input type="radio" name="q2" value="c"> Photosynthesis</label>
+
+            <p>3. Vibrating object which produces sound is called ..........</p>
+                <label class="quiz-option"><input type="radio" name="q3" value="a"> wave</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="b"> source of sound</label>
+                <label class="quiz-option"><input type="radio" name="q3" value="c"> circulation of sound</label>
+
+            <p>4. Which planet consists of ice and gas?</p>
+                <label class="quiz-option"><input type="radio" name="q4" value="a"> Jupiter</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="b"> Saturn</label>
+                <label class="quiz-option"><input type="radio" name="q4" value="c"> Uranus</label>
+
+            <p>5. What is the chemical symbol of Gold? </p>
+                <label class="quiz-option"><input type="radio" name="q5" value="a"> Fe</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="b"> Au</label>
+                <label class="quiz-option"><input type="radio" name="q5" value="c"> Ao</label>
+
+            <p>6. The study of what is called chemistry?</p>
+                <label class="quiz-option"><input type="radio" name="q6" value="a"> Living organisms</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="b"> Stars ane planets</label>
+                <label class="quiz-option"><input type="radio" name="q6" value="c"> Matter and its properties</label>
+
+            <p>7. Normally what percent of blood is plasma?</p>
+                <label class="quiz-option"><input type="radio" name="q7" value="a"> 55%</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="b"> 66%</label>
+                <label class="quiz-option"><input type="radio" name="q7" value="c"> 75%</label>
+
+            <p>8. What is the chemical symbol for silver?</p>
+                <label class="quiz-option"><input type="radio" name="q8" value="a"> H2O</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="b"> Au</label>
+                <label class="quiz-option"><input type="radio" name="q8" value="c"> Ag</label>
+            
+            <p>9. What is the freezing point in the Fahrenheit scale?</p>
+                <label class="quiz-option"><input type="radio" name="q9" value="a"> 23°F</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="b"> 32°F</label>
+                <label class="quiz-option"><input type="radio" name="q9" value="c"> -32°F</label>
+
+            <p>10. What is the study of animals called?</p>
+                <label class="quiz-option"><input type="radio" name="q10" value="a"> Biology</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="b"> Ecology</label>
+                <label class="quiz-option"><input type="radio" name="q10" value="c"> Zoology</label>
+
+            <br><br>
+            <button type="submit" id="submit" onclick="checkAnswers()">Submit</button>
+        </section>
+
+        <div id="result"></div>
+    </main>
+
+
+    <footer>
+        <a href="../Privacy-policy/privacy-policy.html">Privacy Policy</a>
+        <br><br>
+        <a href="../Terms-and-conditions/terms-and-conditions.html">Terms and Conditions</a>
+        <br>
+        <p>Copyright © Ahmed Marium 2025. All rights reserved.</p>
+    </footer>
+
+    <script src="science-quiz.js"></script>
+</body>
+</html>
