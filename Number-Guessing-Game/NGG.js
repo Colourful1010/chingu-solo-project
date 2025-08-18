@@ -1,6 +1,6 @@
 const label = document.getElementById("label");
 const input = document.getElementById("number-input");
-const randomNumber = Math.floor(Math.random() * (50-50+1)+5);
+const randomNumber = Math.floor(Math.random() * 21);
 var output = document.getElementById("output");
 var  refresh = document.getElementById("refresh");
 const button = document.getElementById("button");
@@ -15,7 +15,7 @@ function check(){
     }
     label.innerText = "Your answer:";
     input.readOnly = true;
-    input.style.width = '1.55rem';
+    input.style.width = 'min-content';
     input.style.paddingLeft = '1rem';
     button.style.display = 'none';
     refresh.innerText = "Refresh the page to play again.";
