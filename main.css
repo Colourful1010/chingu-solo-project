@@ -74,16 +74,18 @@ nav ul{
 
 
 main{
-    margin-top: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
 }
 
 
 footer{
-    margin-top: 10rem;
     text-align: center;
     background-color: rgb(28, 56, 56);
-    padding: 1.3rem;
+    padding: 1rem;
     color: white;
+    width: 100%;
+    bottom: 0;
 }
 footer a{
     text-decoration: none;
