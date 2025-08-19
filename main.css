@@ -85,7 +85,7 @@ footer{
     padding: 1rem;
     color: white;
     width: 100%;
-    bottom: 0;
+    margin-left: -1.5rem;
 }
 footer a{
     text-decoration: none;
@@ -93,4 +93,65 @@ footer a{
 }
 footer a:hover{
     color: rgb(92, 233, 186);
+}
+
+
+
+@media (max-width: 740px){
+    .icon{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 90px;
+        cursor: pointer;
+        width: 30px; 
+        height: 25px; 
+
+    }
+
+    .icon span {
+        display: block;
+        background-color: #333;
+        height: 4px; /* Thickness of the lines */
+        width: 100%;
+        position: absolute;
+    }
+
+    .icon span:nth-child(1) {
+        top: 0; /* Top line */
+    }
+
+    .icon span:nth-child(2) {
+        top: 10px; /* Middle line */
+    }
+
+    .icon span:nth-child(3) {
+        top: 20px; /* Bottom line */
+    }
+
+
+    nav ul{
+        display: none;
+        justify-content: right;
+        float: right;
+        position: absolute;
+        right: 80px;
+        margin-top: 2rem;
+        border: 1px solid;
+        padding: 1rem;
+        background-color: rgb(247, 250, 253);
+    }
+    nav ul a{
+        padding: 12px 16px;
+        display: block;
+        transition: background-color 0.3s ease;
+    }
+    .header-button:hover{
+        background-color: #00b7ff;
+        color: white;
+    }
+
+    nav ul li{
+        margin-left: -1.8rem;
+    }
 }

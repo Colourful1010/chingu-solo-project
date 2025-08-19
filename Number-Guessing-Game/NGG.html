@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="NGG.css">
-    <title>Document</title>
+    <title>Number guessing ga</title>
 </head>
 <body>
     <header>
         <span>Qustezle</span>
-
-        <nav>
+        <a name="hamburger-menu" href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <span>-</span>
+            <span>-</span>
+            <span>-</span>
+        </a>
+        <nav id="mainNav">
             <ul>
                 <li><a href="../Home/home.html" class="header-button">Home</a></li>
                 <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
@@ -32,10 +36,12 @@
 
     <main>
         <section>
-            <h1>Guess the number</h1>
-            <label id="label" for="number-input">Enter a number (0 to 10):</label>
-            <input id="number-input" type="number" placeholder="Enter a number here">
-            <button id="button" name="check" type="submit" onclick="check()">Check</button>
+            <form>
+                <h1>Guess the number</h1>
+                <label id="label" for="number-input">Enter a number (0 to 10):</label>
+                <input id="number-input" type="number" placeholder="Enter a number here">
+                <button id="button" name="check" type="submit" onclick="check()">Check</button>
+            </form>
         </section>
 
         <div id="output"></div>
@@ -53,5 +59,6 @@
     </footer>
 
     <script src="NGG.js"></script>
+    <script src="../main.js"></script>
 </body>
 </html>
