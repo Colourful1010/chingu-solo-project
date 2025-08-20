@@ -11,13 +11,12 @@ section{
     border-radius: 2.5rem;
     box-shadow: 2px 2px 20px #38eec0;
     text-align: justify;
-    font-size: 1.25rem;
     line-height: 2rem;;
 }
 
 section h1{
     text-align: center;
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     margin-bottom: 2.5rem;
 }
 
