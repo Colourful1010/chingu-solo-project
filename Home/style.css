@@ -48,3 +48,10 @@
     background-color: rgb(155, 172, 6);
     box-shadow: 0px 0px 0px 5px rgb(185, 190, 35);
 }
+
+
+@media (max-width: 665px){
+    #head{
+        width: 75%;
+    }
+}
