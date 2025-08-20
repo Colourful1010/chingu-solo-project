@@ -1,16 +1,14 @@
-main{
+form{
   margin: auto;
   width: 30%;
-}
-
-form{
   border-radius: 1rem;
   box-shadow: 3px 4px 20px 3px #0ff;
   padding: 2rem;
 }
 
 form input{
-  padding: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   width: 100%;
   border-radius: 4px;
   justify-content: center;
@@ -68,4 +66,26 @@ form button:hover{
   background-color: rgb(107, 212, 3);
   color: rgb(255, 255, 255);
   transition: 0.3s ease
+}
+
+@media (max-width: 950px){
+  form{
+    width: 40%;
+  }
+}
+@media (max-width: 700px){
+  form{
+    width: 50%;
+  }
+}
+@media (max-width: 450px){
+  form{
+    width: 80%;
+  }
+  form input{
+    height: 60%;
+  }
+  form textarea{
+    height: 3rem;
+  }
 }
