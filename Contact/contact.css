@@ -63,3 +63,22 @@ form button:hover{
     background-color:rgb(165, 97, 42);
     color: wheat;
 }
+
+@media (max-width: 1000px){
+    form{
+        width: 55%;
+    }
+}
+@media (max-width: 600px){
+    form{
+        width: 70%;
+    }
+}
+@media (max-width: 450px){
+    form input{
+        height: 60%;
+    }
+    form textarea{
+        height: 3rem;
+    }
+}
