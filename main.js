@@ -6,7 +6,7 @@ function myFunction() {
   } else {
     x.style.display = "block";
     x.innerHTML = `<ul style="display: block;">
-                <li><a href="../Home/home.html" class="header-button">Home</a></li>
+                <li><a href="../index.html" class="header-button">Home</a></li>
                 <li><a href="../Contact/contact.html" class="header-button">Contact</a></li>
                 <li><a href="../About/about.html" class="header-button">About</a></li>
                 <li><a href="../Feedback/feedback.html" class="header-button">Feedback</a></li>
