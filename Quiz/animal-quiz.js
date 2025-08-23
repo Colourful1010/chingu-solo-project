@@ -34,7 +34,7 @@ function checkAnswers() {
     // Display results
     document.getElementById("result").innerHTML = `
     <center>
-        <span>Geography Quiz</span>
+        <span>Animal Quiz</span>
         <h1>Congratulations! You have completed the quiz!</h1>
         <h2>Here are your results.</h2>
 
