@@ -1,8 +1,8 @@
 const label = document.getElementById("label");
 const input = document.getElementById("number-input");
-const randomNumber = Math.floor(Math.random() * 21);
-var output = document.getElementById("output");
-var  refresh = document.getElementById("refresh");
+const randomNumber = Math.floor(Math.random() * 10) + 1;
+let output = document.getElementById("output");
+let  refresh = document.getElementById("refresh");
 const button = document.getElementById("button");
 
 function check(){
