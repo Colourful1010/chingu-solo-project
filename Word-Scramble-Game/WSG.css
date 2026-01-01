@@ -1,0 +1,54 @@
+section{
+    margin: 2.5rem;
+}
+section h1{
+    font-size: 2.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+#scrambledWord{
+    border: 1px solid;
+    width: fit-content;
+    font-size: xx-large;
+    padding: 0.5rem;
+    font-family:'Courier New', Courier, monospace;
+    margin: 3rem;
+}
+
+section label{
+    font-size: x-large;
+}
+
+section input{
+    font-size: large;
+    margin-top: 1.3rem;
+    margin-bottom: 3.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 0.4rem;
+    outline: none;
+}
+section input:focus{
+    box-shadow: 0px 0px 3px 6px #00eeff;
+    border: none;
+}
+
+section button{
+    padding: 1rem;
+    font-size: larger;
+    border: none;
+    border-radius: 1.2rem;
+    background-color:rgb(255, 0, 0);
+    color: azure;
+}
+section button:hover{
+    box-shadow: 0px 0px 2px 10px #00eeff;
+    background-color: #00b7ff;
+}
+
+#result{
+    font-size: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
